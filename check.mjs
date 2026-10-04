@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+const base = 'http://127.0.0.1:5173';
+const home = await fetch(base);
+assert.equal(home.status,200);
+assert.match(home.headers.get('content-security-policy'), /script-src 'self'/);
+const html = await home.text();
+assert.equal((html.match(/<article/g)||[]).length,9);
+assert(!/bando/i.test(html));
+for (const path of ['/assets/portrait.jpeg','/style.css','/script.js','/profile.txt']) assert.equal((await fetch(base+path)).status,200,path);
+for (const path of ['/.git/config','/PRD.md','/server.mjs','/../README.md']) assert.equal((await fetch(base+path)).status,404,path);
+assert.equal((await fetch(base,{method:'POST'})).status,405);
+assert.equal((await fetch(base,{method:'HEAD'})).status,200);
+console.log('PASS: portfolio content, public assets, response headers, private-file blocking and request methods.');

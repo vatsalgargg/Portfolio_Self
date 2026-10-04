@@ -1,0 +1,33 @@
+VATSAL GARG
+Cybersecurity & AI Engineering | Bengaluru, Karnataka
++91 9591305252 | vatsalg80@gmail.com
+LinkedIn: https://www.linkedin.com/in/vatsal-gargg
+GitHub: https://github.com/vatsalgargg
+
+SUMMARY
+CSE student at BMS College of Engineering with hands-on experience in Python automation, REST API integration, and AI-assisted engineering. Built and deployed a production ML platform connecting 3 live data systems with an automated pipeline. ISC2 certified, with a foundation in reliable, secure software.
+
+EDUCATION
+B.M.S. College of Engineering, Bengaluru
+Bachelor of Engineering - Computer Science | 2024-2028
+
+PROJECTS
+InternShield - Forensic Intelligence Engine
+Recruitment scam detection with SSL auditing, WHOIS analysis, document metadata forensics, and live OSINT pipelines. Python, Django, Docker, Azure Container Apps, OSINT.
+
+AuraSniff - AI-Powered Network Forensics CLI
+Local PCAP analysis detecting port scans, ARP spoofing and DNS tunnelling. Dual-LLM analysis using Gemini and Claude. Python, Scapy, PyPI.
+
+Soil Sage - AI Precision Agriculture Platform (2026)
+Random Forest model trained on 12,000+ samples, Flask REST API with rule-based fallback, three live data integrations and a weather-aware seven-day irrigation scheduler. Python, Flask, scikit-learn, Next.js, Supabase, Vercel, Render.
+
+KECPA Website - Responsive professional website on Cloudflare.
+FTR Website - Static Cloudflare website with security-conscious request handling and deployment.
+CTF & Pentesting - TryHackMe top 8%. https://tryhackme.com/p/mrR0bOt
+
+SKILLS
+Python, Java, C, SQL, HTML5, CSS; Kali Linux, OSINT, Computer Networking, Nmap; MySQL, Supabase, Cloudflare D1; Cloudflare Workers, Git, GitHub, Cisco Packet Tracer; Security Research, AI Applications, Prompt Engineering; Problem Solving, Adaptation, Attention to Detail.
+
+CERTIFICATIONS
+Certified in Cybersecurity - ISC2
+Bug Bounty Practical 1.0 - Cywer Learning
