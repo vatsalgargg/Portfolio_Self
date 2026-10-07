@@ -1,2 +1,5 @@
 # Architecture
-Static HTML/CSS/JS, local JPEG, downloadable text profile; no packages. Node standard-library preview binds to 127.0.0.1 and allowlists public assets. Personal contact details and photo are user-authorized portfolio content. No credentials, backend, authentication, databases, analytics, input forms, uploads or API calls. No retention beyond local source. HTTPS and production hosting are outside this local-only delivery.
+
+Dependency-free HTML, CSS and JavaScript. Fonts and portrait are local assets. Native pointer capture drives bounded ID motion; requestAnimationFrame runs only while moving. IntersectionObserver drives reveals and signature. Native details elements provide keyboard-accessible accordions.
+
+server.mjs is a loopback-only preview with an exact public-file allowlist, CSP, nosniff and method restrictions. No authentication, API, database, form submission, analytics, user storage, or secrets. External navigation is limited to supplied professional profiles and mail/tel links.

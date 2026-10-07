@@ -1,3 +1,7 @@
 # Design
-Reference: https://profiler.framer.website
-Black background (#080808), off-white text (#f4f3ef), secondary gray (#aaa9a5). Oversized italic Georgia first name paired with bold Arial surname. Full-viewport grayscale supplied portrait, fixed header, numbered italic section labels and narrow editorial content columns. 5vw desktop/7vw mobile gutters. One-column layout below 600px. Dialog navigation; visible keyboard focus; reduced-motion mode. Scroll reveal, bounded photo parallax, progress line and evidence-based numeric counters.
+
+Reference: Zolt Framer portfolio. Warm #faf9f7 dotted background; #ff5c00 orange accents; Satoshi typeface; centered 968px frame; 40px desktop insets; 36px section headings; rounded white cards and subtle shadows.
+
+Fixed left icon dock changes to bottom navigation on phones. Hero uses colorful hanging ID, drag physics, and rotating multilingual greeting. Reveal animations fade, translate and deblur; respect reduced motion. Personal project preview panels are illustrative UI artwork, not captured product screenshots. Credentials replace template testimonials; contact replaces unprovided pricing.
+
+Responsive layouts cover phones, tablets, laptops and wide desktops. Local font assets use the same publicly served Satoshi typefaces as the reference.

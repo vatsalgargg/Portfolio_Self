@@ -1,16 +1,8 @@
-# Delivery Phases
+# Phases
 
-## 0. Discovery
-- Confirm problem, users, scope, data classification, and threats.
+1. Reference inspection: complete.
+2. Local design and interaction implementation: complete.
+3. Responsive, interaction, HTTP and security verification: passed at 12 viewport sizes from 320 to 2560px, including phone landscape; no horizontal overflow, clipped headings, broken images, or browser errors observed. Confirmed independent card/text entry and text progression, plus animation pause controls. HTTP allowlist/method tests passed. Source security review found no Critical/High findings.
+4. Local browser delivery: complete at http://127.0.0.1:5173/.
 
-## 1. Foundations
-- Establish architecture, auth model, secrets management, linting, tests, and CI.
-
-## 2. MVP
-- Build vertical slices against documented acceptance criteria.
-
-## 3. Security hardening
-- Threat model, dependency review, authz tests, abuse controls, observability.
-
-## 4. Release
-- Security review, privacy check, rollback plan, monitoring, and owner handoff.
+Main push authorized after checks. Production deployment remains separately unverified. Exact Framer physics/timing equivalence is not established; interactions are recreated in vanilla JavaScript.
